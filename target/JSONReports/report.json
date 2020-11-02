@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-01T14:45:07.918Z",
+        "start_timestamp": "2020-11-02T06:42:02.062Z",
         "line": 3,
         "name": "Validate google search is working",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8389002800,
+              "duration": 9634120500,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1418001400,
+              "duration": 2193538400,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 2244993800,
+              "duration": 2215598800,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 3556352000,
+              "duration": 4184032200,
               "status": "passed"
             },
             "line": 7,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 970586500,
+              "duration": 1180009100,
               "status": "passed"
             },
             "line": 8,
@@ -82,11 +82,11 @@
     "tags": []
   },
   {
-    "line": 4,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-11-01T14:45:24.732Z",
-        "line": 6,
+        "start_timestamp": "2020-11-02T06:42:21.785Z",
+        "line": 5,
         "name": "Check login is successful with valid crediantials",
         "description": "",
         "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-crediantials",
@@ -95,7 +95,19 @@
         "steps": [
           {
             "result": {
-              "duration": 1001500,
+              "duration": 6077156600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "use has opened the browser",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.use_has_opened_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8522736100,
               "status": "passed"
             },
             "line": 7,
@@ -103,10 +115,11 @@
             "match": {
               "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
             },
-            "keyword": "Given "
+            "keyword": "And "
           },
           {
             "result": {
+              "duration": 4304180700,
               "status": "passed"
             },
             "line": 8,
@@ -118,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 999100,
+              "duration": 4575164300,
               "status": "passed"
             },
             "line": 9,
@@ -130,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 1001400,
+              "duration": 765304000,
               "status": "passed"
             },
             "line": 10,
