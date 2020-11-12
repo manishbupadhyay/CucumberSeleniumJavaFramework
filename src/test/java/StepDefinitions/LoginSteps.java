@@ -35,11 +35,11 @@ public class LoginSteps {
 		driver.navigate().to("https://classic.freecrm.com/");
 	}
 
-	@When("user enters username and password")
-	public void user_enters_username_and_password() throws InterruptedException {
+	@When("^user enters (.*) and (.*)$")
+	public void user_enters_username_and_password(String username, String password ) throws InterruptedException {
 		System.out.println("Inside step - user enters username and password");
-		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("manishuupadhyay");
-		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("Aadi@4417");
+		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(username);
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(password);
 		Thread.sleep(4000);
 	}
 
