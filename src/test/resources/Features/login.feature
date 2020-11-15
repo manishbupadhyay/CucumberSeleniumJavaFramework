@@ -12,4 +12,3 @@ Feature: feature to test login functionality
     Examples: 
       | username        | password  |
       | manishuupadhyay | Aadi@4417 |
-      | aadi            |     12345 |
