@@ -3,164 +3,192 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-02T06:42:02.062Z",
         "line": 3,
-        "name": "Validate google search is working",
+        "name": "user is logged in",
         "description": "",
-        "id": "feature-to-test-google-search-functionality;validate-google-search-is-working",
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 9634120500,
+              "duration": 4000700,
               "status": "passed"
             },
             "line": 4,
-            "name": "browser is open",
+            "name": "user is on login page",
             "match": {
-              "location": "StepDefinitions.GoogleSearchSteps.browser_is_open()"
+              "location": "StepsForBackground.BackgroundSteps.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2193538400,
               "status": "passed"
             },
             "line": 5,
-            "name": "user is on google search page",
+            "name": "user enters username and password",
             "match": {
-              "location": "StepDefinitions.GoogleSearchSteps.user_is_on_google_search_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2215598800,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user enters a text in search box",
-            "match": {
-              "location": "StepDefinitions.GoogleSearchSteps.user_enters_a_text_in_search_box()"
+              "location": "StepsForBackground.BackgroundSteps.user_enters_username_and_password()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4184032200,
+              "duration": 998900,
               "status": "passed"
             },
-            "line": 7,
-            "name": "hits enter",
+            "line": 6,
+            "name": "clicks on login button",
             "match": {
-              "location": "StepDefinitions.GoogleSearchSteps.hits_enter()"
+              "location": "StepsForBackground.BackgroundSteps.clicks_on_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1180009100,
+              "duration": 1000600,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user is navigated to search results",
+            "line": 7,
+            "name": "user is navigated to homepage",
             "match": {
-              "location": "StepDefinitions.GoogleSearchSteps.user_is_navigated_to_search_results()"
+              "location": "StepsForBackground.BackgroundSteps.user_is_navigated_to_homepage()"
             },
             "keyword": "Then "
           }
         ]
-      }
-    ],
-    "name": "feature to test google search functionality",
-    "description": "",
-    "id": "feature-to-test-google-search-functionality",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
-    "tags": []
-  },
-  {
-    "line": 3,
-    "elements": [
+      },
       {
-        "start_timestamp": "2020-11-02T06:42:21.785Z",
-        "line": 5,
-        "name": "Check login is successful with valid crediantials",
+        "start_timestamp": "2020-11-16T13:23:04.553Z",
+        "line": 9,
+        "name": "check logout link",
         "description": "",
-        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-crediantials",
+        "id": "check-home-page;check-logout-link",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6077156600,
+              "duration": 998500,
               "status": "passed"
             },
-            "line": 6,
-            "name": "use has opened the browser",
+            "line": 10,
+            "name": "user clicks on welcome link",
             "match": {
-              "location": "StepDefinitions.LoginSteps.use_has_opened_the_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 8522736100,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is on login page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4304180700,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enters username and password",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_enters_username_and_password()"
+              "location": "StepsForBackground.BackgroundSteps.user_clicks_on_welcome_link()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 4575164300,
+              "duration": 998700,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
+            "name": "logout link is displayed",
+            "match": {
+              "location": "StepsForBackground.BackgroundSteps.logout_link_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "user is logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsForBackground.BackgroundSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2016700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepsForBackground.BackgroundSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "line": 6,
             "name": "clicks on login button",
             "match": {
-              "location": "StepDefinitions.LoginSteps.clicks_on_login_button()"
+              "location": "StepsForBackground.BackgroundSteps.clicks_on_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 765304000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user is navigated to home page",
+            "line": 7,
+            "name": "user is navigated to homepage",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_home_page()"
+              "location": "StepsForBackground.BackgroundSteps.user_is_navigated_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-16T13:23:04.803Z",
+        "line": 13,
+        "name": "verify quick launch toolbar is present",
+        "description": "",
+        "id": "check-home-page;verify-quick-launch-toolbar-is-present",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click on dashboard link",
+            "match": {
+              "location": "StepsForBackground.BackgroundSteps.user_click_on_dashboard_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "quick launch toolbar is displayed",
+            "match": {
+              "location": "StepsForBackground.BackgroundSteps.quick_launch_toolbar_is_displayed()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "feature to test login functionality",
+    "name": "Check home page",
     "description": "",
-    "id": "feature-to-test-login-functionality",
+    "id": "check-home-page",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/login.feature",
+    "uri": "file:src/test/resources/Features/Background/background.feature",
     "tags": []
   }
 ]
