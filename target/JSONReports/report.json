@@ -1,1 +1,94 @@
-[]
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-22T10:25:30.662Z",
+        "line": 14,
+        "name": "Check login is successful with valid crediantials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-crediantials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14047815400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "use has opened the browser",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.use_has_opened_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5393616000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5870660200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters manishuupadhyay and Aadi@4417",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manishuupadhyay",
+                  "offset": 12
+                },
+                {
+                  "val": "Aadi@4417",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefinitions.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5288813800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2342285700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginFeature/login.feature",
+    "tags": []
+  }
+]

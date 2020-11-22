@@ -1,4 +1,4 @@
-package StepDefinitions;
+package testrunners;
 
 import org.junit.runner.RunWith;
 import io.cucumber.junit.CucumberOptions;
@@ -15,6 +15,6 @@ plugin = {"pretty", "html:target/HTMLReports/report.html",
 		"json:target/cucumber.json"
 })
 
-public class TestRunner_RunWithSingleTag {
+public class TestRunWithSingleTag {
 
 }

@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.02"/>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="33.55">
+    <testcase classname="feature to test login functionality" name="Check login is successful with valid crediantials" time="33.08">
+        <system-out>
+            <![CDATA[Given use has opened the browser............................................passed
+And user is on login page...................................................passed
+When user enters manishuupadhyay and Aadi@4417..............................passed
+And clicks on login button..................................................passed
+Then user is navigated to home page.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
