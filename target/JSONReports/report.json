@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-29T08:47:39.501Z",
+        "line": 4,
+        "name": "Sample 1",
+        "description": "    Given \n    When \n    And ",
+        "id": "feature-to-demo-tags;sample-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-29T08:47:39.520Z",
+        "line": 10,
+        "name": "Sample 2",
+        "description": "    Given \n    When  \n    And ",
+        "id": "feature-to-demo-tags;sample-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-29T08:47:39.532Z",
+        "line": 16,
+        "name": "Sample 3",
+        "description": "    Given \n    When  \n    And ",
+        "id": "feature-to-demo-tags;sample-3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "feature to demo tags",
+    "description": "",
+    "id": "feature-to-demo-tags",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureWithTags/tags.feature",
+    "tags": []
+  }
+]

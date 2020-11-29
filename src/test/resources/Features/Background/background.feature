@@ -1,15 +1,24 @@
-Feature: Check home page
+Feature: Home Page
+  In order to check my order details
+  As a regitered user
+  I want to specify the features of order details page
 
-Background: user is logged in
-Given user is on login page
-When user enters username and password
-And clicks on login button
-Then user is navigated to homepage
+  Background: 
+    Given a registered user exists
+    Given user is on Amazon login page
+    When user enters username
+    And user enters password
+    And user click on login button
+    Then user navigates to order page
 
-  Scenario: check logout link
-    When user clicks on welcome link
-    Then logout link is displayed
+  Scenario: Check previous order details
+    When user clicks on order link
+    Then user checks the previous order details
 
-  Scenario: verify quick launch toolbar is present
-    When user click on dashboard link
-    Then quick launch toolbar is displayed
+  Scenario: Check open order details
+    When user clicks on open orders link
+    Then user checks the open order details
+
+  Scenario: Check cancelled order details
+    When user clicks on cancelled order links
+    Then user checks the cancelled order details
